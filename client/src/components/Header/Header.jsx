@@ -2,7 +2,7 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <header>
+    <header className="Header">
       <div className="header-logo">E-Shop</div>
       <div className="header-searchbox">
         <input type="text" id="header-searchbox-input" placeholder="Search product ..." />
