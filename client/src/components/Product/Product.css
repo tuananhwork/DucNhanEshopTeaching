@@ -19,9 +19,12 @@
   border: none;
   border-radius: 6px;
 }
+<<<<<<< HEAD
 
 .product-desc {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
+=======
+>>>>>>> 94a1fc3bddbd827d7d694a26943d98ece28b42f2
