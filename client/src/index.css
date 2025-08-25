@@ -1,0 +1,23 @@
+/* RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+/* VARIABLES */
+:root {
+  --text-color: #222222;
+  --bg-color: #eee;
+  --primary-color: #044c60;
+}
