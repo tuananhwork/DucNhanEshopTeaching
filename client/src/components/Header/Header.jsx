@@ -1,4 +1,5 @@
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -8,9 +9,9 @@ const Header = () => {
         <input type="text" id="header-searchbox-input" placeholder="Search product ..." />
       </div>
       <nav className="header-navigate">
-        <a href="/">Home</a>
-        <a href="/products">Products</a>
-        <a href="/cart">Cart</a>
+        <Link to="/">Home</Link>
+        <Link to="/products">Products</Link>
+        <Link to="/profile">Profile</Link>
       </nav>
     </header>
   );
