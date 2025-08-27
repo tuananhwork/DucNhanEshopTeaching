@@ -1,8 +1,15 @@
 import './ProductsPage.css';
+import { Header, Footer } from '../../components';
 
 const ProductsPage = () => {
   return (
-    <div>ProductsPage</div>
+    <div className='ProductsPage'>
+      <Header />
+      <main id="Products">
+        <h1>PRODUCTS PAGE</h1>
+      </main>
+      <Footer />
+    </div>
   );
 };
 

@@ -1,8 +1,14 @@
-import './Home.css';
+import { Footer, Header } from "../../components";
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className='HomePage'>
+      <Header />
+      <main id="home">
+        <h1>HOME PAGE</h1>
+      </main>
+      <Footer />
+    </div>
   );
 };
 
